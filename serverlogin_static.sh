@@ -1,10 +1,8 @@
 #!/usr/bin/expect
 
 set login "root"
-#set addr "161.202.173.247"
-#set pw "MaMedN6P"
-set addr "75.126.93.218"
-set pw "AKlg6Wxs"
+set addr "IP HERE"
+set pw "PASSWORD HERE"
 
 spawn ssh $login@$addr
 expect "$login@$addr\'s password:"

@@ -16,12 +16,6 @@
 #send "ls -l"
 #}
 
-#set login "root"
-#set addr "161.202.173.247"
-#set pw "MaMedN6P"
-#set addr "75.126.93.218"
-#set pw "AKlg6Wxs"
-
 #spawn ssh $login@$addr
 #expect "$login@$addr\'s password:"
 #send "$pw\r"
